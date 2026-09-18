@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "91XXXXXXXXXX"; // Replace with FRSH WhatsApp Business number
+const WHATSAPP_NUMBER = "917702519019"; // Replace with FRSH WhatsApp Business number
 const item = document.getElementById("item");
 const qty = document.getElementById("qty");
 const wa = document.getElementById("wa");
@@ -14,7 +14,7 @@ function order(){
 
   const message = `Hey FRSH! 🍉 I’d like to order: ${item.value}. Quantity: ${quantity}. Please share delivery & payment details.`;
   if (WHATSAPP_NUMBER.includes("X")) {
-    alert("Add your WhatsApp Business number in script.js first (example: 919876543210).");
+    alert("Add your WhatsApp Business number in script.js first (77022519019).");
     return;
   }
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
