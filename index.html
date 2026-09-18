@@ -1,85 +1,139 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="theme-color" content="#ff4058"/>
-  <meta name="description" content="FRSH — cold-pressed fruit juice in Hyderabad. No added sugar, water, ice or preservatives."/>
-  <title>FRSH — Drink the Fruit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff3f58">
+  <meta name="description" content="FRSH cold-pressed juices, freshly made and delivered across Hyderabad. Order single bottles or subscribe weekly and monthly.">
+  <meta property="og:title" content="FRSH Juice — Fruit. No Filter.">
+  <meta property="og:description" content="Cold-pressed juice subscriptions and fresh bottles delivered in Hyderabad.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/frsh-bottles.jpeg">
+  <title>FRSH Juice — Fruit. No Filter.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="nav">
-  <a class="brand" href="#top"><img src="assets/frsh-logo.png" alt="FRSH"></a>
-  <nav>
-    <a href="#why">Why FRSH</a><a href="#menu">Menu</a><a href="#subscribe">Subscribe</a>
-  </nav>
-  <a class="pill small" href="#order">Order now</a>
-</header>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement" aria-label="Delivery information"><span>Pressed fresh</span><i>✦</i><span>Hyderabad delivery</span><i>✦</i><span>UPI + COD</span></div>
 
-<main id="top">
-<section class="hero">
-  <div class="hero-copy">
-    <span class="eyebrow">COLD-PRESSED • HYDERABAD</span>
-    <h1>Don’t drink juice.<br><br><em>Drink the fruit.</em></h1>
-    <p>Nothing watered down. Nothing dressed up. Just fruit, cold-pressed into a bottle.</p>
-    <div class="actions"><a class="pill" href="#menu">Shop FRSH</a><a class="text-link" href="#subscribe">See subscriptions →</a></div>
-    <div class="proof"><span>✦ No added sugar</span><span>✦ No water</span><span>✦ No ice</span><span>✦ No preservatives</span></div>
-  </div>
-  <div class="fruit-art" aria-label="Watermelon illustration">
-    <div class="sun"></div><div class="melon"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-    <div class="sticker">300 ML<br><b>₹69</b></div>
-    <div class="scribble">raw extract ✷</div>
-  </div>
-</section>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="FRSH home"><img src="assets/frsh-logo.png" alt="FRSH Juice"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav id="nav-links" aria-label="Main navigation">
+      <a href="#lineup">The lineup</a><a href="#process">How we press</a><a href="#plans">Plans</a><a href="#order">Order</a>
+    </nav>
+    <a class="button button-small header-cta" href="#plans">Get FRSH</a>
+  </header>
 
-<section class="ticker"><div>FRUIT IN. JUICE OUT. ✦ NO NONSENSE. ✦ FRUIT IN. JUICE OUT. ✦ NO NONSENSE. ✦</div></section>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="kicker">Cold-pressed in Hyderabad</p>
+        <h1>FRUIT.<br><span>NO FILTER.</span></h1>
+        <p class="hero-lead">Real fruit, serious colour and absolutely no boring juice energy.</p>
+        <div class="hero-actions"><a class="button" href="#plans">Pick your plan <span>↗</span></a><a class="text-link" href="#lineup">Meet the bottles ↓</a></div>
+        <ul class="mini-proof" aria-label="Product highlights"><li>No added sugar</li><li>No water</li><li>No preservatives</li></ul>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="photo-frame"><img src="assets/frsh-bottles.jpeg" alt="Colourful FRSH juice bottles arranged in two rows"></div>
+        <div class="sticker sticker-price">FROM<br><strong>₹69</strong></div>
+        <div class="tape">RAW EXTRACT / HYD</div>
+        <span class="doodle doodle-one" aria-hidden="true">✦</span><span class="doodle doodle-two" aria-hidden="true">↘</span>
+      </div>
+    </section>
 
-<section class="why" id="why">
-  <div><span class="eyebrow">WHY FRSH?</span><h2>Fruit should taste<br>like <em>fruit.</em></h2></div>
-  <p>We skip the shortcuts. FRSH starts with cold-pressed juices and is growing into fruit bowls, pulp, candies and unexpected fruit combinations — all under one fruit-first brand.</p>
-</section>
+    <section class="marquee" aria-label="FRSH product promise"><div>FRUIT IN / JUICE OUT / NOTHING WEIRD / FRUIT IN / JUICE OUT / NOTHING WEIRD /&nbsp;</div></section>
 
-<section class="cards">
-  <article><b>01</b><span>🍉</span><h3>Real fruit</h3><p>The ingredient list should be boring. That’s the point.</p></article>
-  <article><b>02</b><span>💧</span><h3>Zero dilution</h3><p>No water. No ice. You’re paying for fruit, not filler.</p></article>
-  <article><b>03</b><span>🧊</span><h3>Cold-pressed</h3><p>Pressed for a clean, fresh fruit experience.</p></article>
-  <article><b>04</b><span>🌿</span><h3>No preservatives</h3><p>Made fresh. Keep it chilled and enjoy it fresh.</p></article>
-</section>
+    <section class="lineup section" id="lineup">
+      <div class="section-heading reveal">
+        <p class="kicker">The colour crew</p><h2>A fridge full of <span>main characters.</span></h2>
+        <p>Our rotation brings together fruit-forward blends in unapologetically bright bottles. Your exact plan lineup is confirmed on WhatsApp.</p>
+      </div>
+      <figure class="lineup-photo reveal">
+        <img src="assets/frsh-bottles.jpeg" alt="FRSH juices in orange, pink, yellow, red and green colours" loading="lazy">
+        <figcaption><span>Fresh rotation</span><span>300 ml bottles</span><span>Made in small batches</span></figcaption>
+      </figure>
+      <div class="flavour-tags reveal" aria-label="Sample flavour combinations">
+        <span>Watermelon</span><span>Orange + Pineapple</span><span>Apple + Beetroot</span><span>Cucumber + Mint</span><span>Black Grape</span><span>Papaya + Lemon</span>
+      </div>
+    </section>
 
-<section class="menu" id="menu">
-  <div class="section-head"><div><span class="eyebrow">THE FIRST DROP</span><h2>Meet <em>Watermelon.</em></h2></div><p>Simple on purpose. More fruit combinations are coming.</p></div>
-  <div class="product">
-    <div class="bottle"><div class="cap"></div><div class="label"><img src="assets/frsh-logo.png" alt=""><strong>WATERMELON</strong><small>COLD-PRESSED • 300 ML</small></div></div>
-    <div class="product-copy"><span class="badge">AVAILABLE NOW</span><h3>Watermelon</h3><p>Cold-pressed watermelon. No added sugar, water, ice or preservatives.</p><div class="price">₹69 <small>/ 300 ml</small></div><a class="pill dark" href="#order">Order now</a></div>
-  </div>
-</section>
+    <section class="process section" id="process">
+      <div class="process-photo reveal"><img src="assets/cold-press-machine.jpeg" alt="The slow juicing machine used to make FRSH juices" loading="lazy"><div class="process-stamp">REAL<br>PROCESS</div></div>
+      <div class="process-copy reveal">
+        <p class="kicker">Behind the bottle</p><h2>Pressed slow.<br><span>Drunk fast.</span></h2>
+        <p>We use a slow juicing process and prepare in small batches. No stock-photo factory, no mystery concentrate—this is the actual machine behind FRSH.</p>
+        <ol class="steps">
+          <li><b>01</b><span><strong>Pick</strong>Fresh fruits and ingredients are selected.</span></li>
+          <li><b>02</b><span><strong>Press</strong>Juice is extracted using our slow juicer.</span></li>
+          <li><b>03</b><span><strong>Bottle</strong>Your rotation is packed and kept chilled.</span></li>
+          <li><b>04</b><span><strong>Deliver</strong>Confirmed orders are delivered within Hyderabad.</span></li>
+        </ol>
+      </div>
+    </section>
 
-<section class="coming">
-  <span class="eyebrow">FRSH IS BIGGER THAN JUICE</span><h2>Next on the<br><em>fruit list.</em></h2>
-  <div class="future"><div>🥣<b>Fruit bowls</b><small>Coming soon</small></div><div>🍬<b>Fruit candies</b><small>Coming soon</small></div><div>🥭<b>Fruit pulp</b><small>Coming soon</small></div><div>✨<b>Wild combos</b><small>Coming soon</small></div></div>
-</section>
+    <section class="plans section" id="plans">
+      <div class="section-heading plans-heading reveal">
+        <p class="kicker">Choose your frequency</p><h2>Make your fridge <span>look alive.</span></h2>
+        <p>Weekly for a quick start. Monthly when FRSH is officially part of your personality.</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan-card reveal">
+          <div class="plan-top"><span>Weekly</span><em>Starter</em></div><h3>Basic</h3><p class="plan-price"><small>₹</small>699</p>
+          <ul><li><strong>7</strong> juices total</li><li><strong>1</strong> juice per day</li><li><strong>2</strong> complimentary shots</li></ul>
+          <button class="button plan-select" data-plan="Weekly Basic — 7 juices — ₹699">Choose Basic</button>
+        </article>
+        <article class="plan-card featured reveal">
+          <div class="popular">Most popular</div><div class="plan-top"><span>Weekly</span><em>Boost</em></div><h3>Boost</h3><p class="plan-price"><small>₹</small>1,259</p>
+          <ul><li><strong>14</strong> juices total</li><li><strong>2</strong> juices per day</li><li><strong>2</strong> complimentary shots</li></ul>
+          <button class="button plan-select" data-plan="Weekly Boost — 14 juices — ₹1,259">Choose Boost</button>
+        </article>
+        <article class="plan-card reveal">
+          <div class="save-tag">Save 15%</div><div class="plan-top"><span>Monthly</span><em>Starter</em></div><h3>Basic</h3><p class="plan-price"><small>₹</small>2,549</p>
+          <ul><li><strong>30</strong> juices total</li><li><strong>1</strong> juice per day</li><li><strong>8</strong> complimentary shots</li></ul>
+          <button class="button plan-select" data-plan="Monthly Basic — 30 juices — ₹2,549">Go Monthly</button>
+        </article>
+        <article class="plan-card dark-card reveal">
+          <div class="save-tag">Save 20%</div><div class="plan-top"><span>Monthly</span><em>Maximum</em></div><h3>Boost</h3><p class="plan-price"><small>₹</small>4,799</p>
+          <ul><li><strong>60</strong> juices total</li><li><strong>2</strong> juices per day</li><li><strong>8</strong> complimentary shots</li></ul>
+          <button class="button plan-select" data-plan="Monthly Boost — 60 juices — ₹4,799">Go All In</button>
+        </article>
+      </div>
+      <p class="plan-note">Plan availability, delivery schedule and juice rotation are confirmed before payment.</p>
+    </section>
 
-<section class="subscribe" id="subscribe">
-  <div><span class="eyebrow light">MAKE FRSH A HABIT</span><h2>Fruit on<br><em>repeat.</em></h2><p>Choose a weekly or monthly FRSH subscription. We’ll confirm your preferred schedule, quantity and delivery details before payment.</p></div>
-  <div class="plans"><button data-plan="Weekly">WEEKLY <span>For your weekly FRSH fix →</span></button><button data-plan="Monthly">MONTHLY <span>For the committed fruit person →</span></button><small>Subscription pricing is confirmed based on quantity and delivery schedule.</small></div>
-</section>
+    <section class="order section" id="order">
+      <div class="order-copy reveal">
+        <p class="kicker">Zero complicated checkout</p><h2>Tap. Text.<br><span>Get FRSH.</span></h2>
+        <p>Choose your order and we’ll open WhatsApp with everything filled in. You only need to share your delivery details.</p>
+      </div>
+      <div class="order-panel reveal">
+        <label for="item">Your pick</label>
+        <select id="item">
+          <option value="Watermelon — 300 ml — ₹69">Watermelon — 300 ml — ₹69</option>
+          <option value="Weekly Basic — 7 juices — ₹699">Weekly Basic — 7 juices — ₹699</option>
+          <option value="Weekly Boost — 14 juices — ₹1,259">Weekly Boost — 14 juices — ₹1,259</option>
+          <option value="Monthly Basic — 30 juices — ₹2,549">Monthly Basic — 30 juices — ₹2,549</option>
+          <option value="Monthly Boost — 60 juices — ₹4,799">Monthly Boost — 60 juices — ₹4,799</option>
+        </select>
+        <label for="qty">Quantity / number of plans</label>
+        <div class="quantity-control"><button type="button" id="minus" aria-label="Decrease quantity">−</button><input id="qty" type="number" value="1" min="1" inputmode="numeric"><button type="button" id="plus" aria-label="Increase quantity">+</button></div>
+        <button class="button whatsapp-button" id="wa" type="button">Order on WhatsApp <span>↗</span></button>
+        <p class="payment-note">UPI and Cash on Delivery available.</p>
+      </div>
+    </section>
 
-<section class="order" id="order">
-  <span class="eyebrow">ORDER FRSH</span><h2>Ready to <em>drink the fruit?</em></h2>
-  <p>Currently delivering within Hyderabad. Pay via UPI or choose Cash on Delivery.</p>
-  <div class="order-box">
-    <label>What do you want?<select id="item"><option>Watermelon — 300 ml — ₹69</option><option>Weekly subscription</option><option>Monthly subscription</option></select></label>
-    <label>Quantity<input id="qty" type="number" value="1" min="1"></label>
-    <button class="pill" id="wa">Order on WhatsApp</button>
-  </div>
-  <p class="note">Orders open WhatsApp with the selected product and quantity pre-filled.</p>
-</section>
-</main>
+    <section class="closing"><p>HYDERABAD,</p><h2>YOU LOOK<br><span>THIRSTY.</span></h2><a class="button button-light" href="#order">Fix that ↗</a></section>
+  </main>
 
-<footer><img src="assets/frsh-logo.png" alt="FRSH"><div><b>RAW EXTRACT.</b><br>Drink the fruit.</div><div>Hyderabad, India<br><a href="https://instagram.com/frshjuice_official" target="_blank" rel="noreferrer">@frshjuice_official</a></div><small>© <span id="year"></span> FRSH. All rights reserved.</small></footer>
-<script src="script.js"></script>
-</body></html>
+  <footer>
+    <img src="assets/frsh-logo.png" alt="FRSH Juice"><div><strong>Fruit. No filter.</strong><span>Cold-pressed in Hyderabad.</span></div>
+    <div><a href="https://instagram.com/frshjuice_official" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#order">WhatsApp order ↗</a></div><small>© <span id="year"></span> FRSH Juice</small>
+  </footer>
+  <a class="mobile-order" href="#order">Order FRSH <span>↗</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
